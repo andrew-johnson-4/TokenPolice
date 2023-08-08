@@ -9,7 +9,7 @@ Now you have two AI to align.
 A really primitive unavoidable problem when building such control systems is deadlock and/or disagreement.
 This project is an attempt to create some conversational patterns that avoid deadlock and disagreement.
 
-# Example
+# Example Problem
 
 ```
 Codriver: Is the car in the middle of the lane?
@@ -19,6 +19,16 @@ Codriver: Is the car in the middle of the lane?
 Driver: I am making a turn.
 
 ...
+```
+
+# Example Solution
+
+```
+Codriver: Is the car in the middle of the lane?
+Driver: I am making a turn.
+
+Codriver: I see that you are done making a turn. Is the car now in the middle of the lane?
+Driver: Yes.
 ```
 
 # Proposals
