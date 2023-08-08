@@ -1,0 +1,9 @@
+[package]
+name = "TokenPolice"
+version = "0.0.0"
+authors = ["Andrew <andrew@subarctic.org>"]
+license = "MIT"
+description = "Dimensionality Reduction"
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/andrew-johnson-4/TokenPolice"
