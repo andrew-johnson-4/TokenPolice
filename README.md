@@ -34,3 +34,5 @@ Driver: Yes.
 # Proposals
 
 Control-Flow Graphs are useful to ensure forward progress in conversations.
+
+![CFG](https://raw.githubusercontent.com/andrew-johnson-4/TokenPolice/main/TokenPolice.jpg)
