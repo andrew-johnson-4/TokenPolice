@@ -1,6 +1,6 @@
 # TokenPolice
 LLM models like ChatGPT are amazing at creating new information.
-However it is also very easy to get off-track when trying to use them programatically.
+However it is also very easy to get off-track when trying to use them programmatically.
 I created TokenPolice to help address this problem for my own use.
 The basic idea is to run state machines to guide prompting, ensuring that prompt structure itself is always well-formed.
 
