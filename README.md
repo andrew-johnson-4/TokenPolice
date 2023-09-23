@@ -1,35 +1,10 @@
 # TokenPolice
-Circuits to reduce dimensionality for transformers
+LLM models like ChatGPT are amazing at creating new information.
+However it is also very easy to get off-track when trying to use them programatically.
+I created TokenPolice to help address this problem for my own use.
+The basic idea is to run state machines to guide prompting, ensuring that prompt structure itself is always well-formed.
 
-# What? Why?
-AI control systems are hard to build.
-To create alignment with control objectives one option is to create another AI to safeguard the first AI...
-Now you have two AI to align.
-
-A really primitive unavoidable problem when building such control systems is deadlock and/or disagreement.
-This project is an attempt to create some conversational patterns that avoid deadlock and disagreement.
-
-# Example Problem
-
-```
-Codriver: Is the car in the middle of the lane?
-Driver: I am making a turn.
-
-Codriver: Is the car in the middle of the lane?
-Driver: I am making a turn.
-
-...
-```
-
-# Example Solution
-
-```
-Codriver: Is the car in the middle of the lane?
-Driver: I am making a turn.
-
-Codriver: I see that you are done making a turn. Is the car now in the middle of the lane?
-Driver: Yes.
-```
+There are some basic vocabulary that is used inside this project:
 
 # Vocabulary Definitions
 
