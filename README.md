@@ -8,8 +8,6 @@ There are some basic vocabulary that is used inside this project:
 
 # Vocabulary Definitions
 
-Control-Flow Graphs are useful to ensure forward progress in conversations.
-
 ### Model
 A Model is the whole prompt structure. All state, transitions, and projections are described in a model.
 
